@@ -20,3 +20,8 @@ Laravel locale helper controls multiple language dynamically.
 <pre><code>
 composer  create-project laravel/laravel laravel-locale --prefer-dist
 </code></pre>
+
+## Create Middleware
+<pre><code>
+php artisan make:middleware LocaleMiddleware
+</code></pre>
