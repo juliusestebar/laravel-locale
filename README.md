@@ -8,10 +8,14 @@ Laravel provides two ways to manage translation strings. First, language strings
 
 Laravel locale helper controls multiple language dynamically. 
 
+<p><p>
+<p><p>
 <blockquote>
-<p>Note: <code>Do not clone this repo</code> unless you will build app from the scratch!</p>
+<p>Note: <code>Do not clone this repo unless you will build the app from the scratch!</p></code>
 </blockquote>
-
+<p><p>
+<p><p>
+    
 ## Install Laravel
 <pre><code>
 composer  create-project laravel/laravel laravel-locale --prefer-dist
