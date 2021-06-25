@@ -20,10 +20,10 @@
     <h1>@lang('locale.thank_you') !</h1>
     <h1>{{ __('locale.see_you_again') }}, {{ __('locale.goodbye') }} !</h1>
 
-        <ul class="nav navbar-nav float-right">
-          <li class="dropdown dropdown-language nav-item">
+        <ul class="nav navbar-nav float-right ml-5">
+          <li class="dropdown dropdown-language nav-item ">
             <a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="flag-icon flag-icon-us"></i><span class="selected-language">English</span>
+                    <i class="flag-icon {{ __('locale.flag-icon') }}"></i><span class="">{{ __('locale.selected') }}</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdown-flag">
               <a class="dropdown-item" href="{{url('lang/en')}}" data-language="en">
@@ -41,7 +41,7 @@
               <a class="dropdown-item" href="{{url('lang/zh_HK')}}" data-language="hk">
                 <i class="flag-icon flag-icon-hk mr-50"></i> Hong Kong
               </a>
-              <a class="dropdown-item" href="{{url('lang/zh_HK')}}" data-language="cn">
+              <a class="dropdown-item" href="{{url('lang/zh_CN')}}" data-language="cn">
                 <i class="flag-icon flag-icon-cn mr-50"></i> China
               </a>
             </div>
