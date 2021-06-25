@@ -2,10 +2,10 @@
 
 return [
 
-    'world' => 'World',
-    'thank_you' => 'Thank you',
-    'see_you_again' => 'See you again',
-    'goodbye' => 'Good bye',
-    'selected' => 'Chinese (Simplified)',
+    'world' => '世界',
+    'thank_you' => '谢谢',
+    'see_you_again' => '又见',
+    'goodbye' => '再见',
+    'selected' => '中文（简体',
     'flag-icon' => 'flag-icon-cn'
 ];

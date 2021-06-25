@@ -2,10 +2,10 @@
 
 return [
 
-    'world' => 'World',
-    'thank_you' => 'Thank you',
-    'see_you_again' => 'See you again',
-    'goodbye' => 'Good bye',
-    'selected' => 'Arabic',
+    'world' => 'عالم',
+    'thank_you' => 'شكرا لك',
+    'see_you_again' => 'نراكم مرة أخرى',
+    'goodbye' => 'مع السلامة',
+    'selected' => 'عربى',
     'flag-icon' => 'flag-icon-sa'
 ];

@@ -2,10 +2,10 @@
 
 return [
 
-    'world' => 'World',
-    'thank_you' => 'Thank you',
-    'see_you_again' => 'See you again',
-    'goodbye' => 'Good bye',
-    'selected' => 'Japanese',
+    'world' => '世界',
+    'thank_you' => 'ありがとう',
+    'see_you_again' => 'また会いましょう',
+    'goodbye' => 'さようなら',
+    'selected' => '日本語',
     'flag-icon' => 'flag-icon-jp'
 ];
