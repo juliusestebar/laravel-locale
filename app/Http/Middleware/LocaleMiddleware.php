@@ -18,7 +18,7 @@ class LocaleMiddleware
     {
         $availLocale = ['en' => 'en', 'ar' =>'ar', 'es' => 'es', 'ja' => 'ja', 'zh_HK' => 'zh_HK', 'zh_CN' => 'zh_CN'];
         //en - english
-        //ar - arablic
+        //ar - arabic
         //es - spanish / español
         //ja - japanese
         //zh_HK - chinese Hong Kong

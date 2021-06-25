@@ -25,3 +25,39 @@ composer  create-project laravel/laravel laravel-locale --prefer-dist
 <pre><code>
 php artisan make:middleware LocaleMiddleware
 </code></pre>
+
+## Add middleware in Kernel.php ( app/Http)
+<pre><code>
+    protected $middlewareGroups = [
+        'web' => [
+            \App\Http\Middleware\EncryptCookies::class,
+            ...
+            \App\Http\Middleware\LocaleMiddleware::class,
+        ],
+</code></pre>
+
+## Create Controller 
+<pre><code>
+php artisan make:controller LanguageController
+</code></pre>
+
+## Create route for controller in routes/web.php 
+<pre><code>
+use App\Http\Controllers\LanguageController;
+
+Route::get('lang/{locale}',[LanguageController::class,'swap']);
+</code></pre>
+
+## Add folders for each locale in ( resource/lang )
+<pre><code>
+ lang/en       //en - english
+ lang/ar       //ar - arabic
+ lang/es       //es - spanish / español
+ lang/ja       //ja - japanese
+ lang/zh_HK    //zh_HK - Chinese - Hong Kong
+ lang/zh_CN    //zh_CN - Chinese - China
+</code></pre>
+
+
+## Benefits
+-- SEO friendly - no need for an extra language ( /en/test or /ar/test ) in your url
